@@ -109,9 +109,9 @@ function makeEnvelope(args) {
   // documents for matching anchor strings.
   let signHere1 = docusign.SignHere.constructFromObject({
     anchorString: '/sn1/',
-    anchorYOffset: '10',
+    anchorYOffset: '779',
     anchorUnits: 'pixels',
-    anchorXOffset: '20',
+    anchorXOffset: '67',
   });
   // Tabs are set per recipient / signer
   let signer1Tabs = docusign.Tabs.constructFromObject({
